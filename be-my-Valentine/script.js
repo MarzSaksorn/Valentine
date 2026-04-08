@@ -1,14 +1,14 @@
 const messages = [
-    "แน่ใจน้าาา?",
-    "จริงหรออ??",
-    "จริงป่ะเนี่ย?",
-    "ขอเถอะน้าาา",
-    "คิดดีแล้วหรือยังง!",
-    "ถ้าตอบไม่ เราจะร้องให้แล้วนะ...",
-    "เศร้าหว่ะ...",
-    "เศร้าจริงนะเนี่ยยยย...",
-    "เคร จะหยุดถามละ",
-    "เอาดี?!"
+    "Are you sure?",
+    "Really sure??",
+    "Are you positive?",
+    "Pookie please...",
+    "Just think about it!",
+    "If you say no, I will be really sad...",
+    "I will be very sad...",
+    "I will be very very very sad...",
+    "Ok fine, I will stop asking...",
+    "Just kidding, say yes please! ❤️"
 ];
 
 let messageIndex = 0;
@@ -23,5 +23,5 @@ function handleNoClick() {
 }
 
 function handleYesClick() {
-    window.location.href = "yes_page";
+    window.location.href = "yes_page.html";
 }
